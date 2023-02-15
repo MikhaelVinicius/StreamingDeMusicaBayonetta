@@ -21,7 +21,7 @@ const SongDetails = () => {
     
       };
 
-    if (isFetchingSongDetails || isFetchingRelatedSongs) return <Loader title="Procurando sobre a música... " />;
+    if (isFetchingSongDetails || isFetchingRelatedSongs) return <Loader title="Procurando detalhes sobre a música... " />;
     if (error) return <Error />;
     
     
